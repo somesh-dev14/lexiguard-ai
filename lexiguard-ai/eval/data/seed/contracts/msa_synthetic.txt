@@ -1,0 +1,111 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement (the "Agreement") is made on 1 April 2025 (the "Effective Date") between Northwind Analytics Private Limited, a company incorporated under the Companies Act, 2013 (the "Supplier"), and Contoso Retail Limited (the "Customer"). The Supplier and the Customer are each a "Party" and together the "Parties".
+
+WHEREAS the Customer wishes to obtain managed data analytics services and the Supplier has agreed to provide them on the terms of this Agreement.
+
+1. Definitions and Interpretation
+1.1 In this Agreement the following terms have the following meanings:
+"Affiliate" means any entity that directly or indirectly controls, is controlled by, or is under common control with a Party.
+"Business Day" means a day other than a Saturday, Sunday or public holiday in Mumbai.
+"Charges" means the fees payable by the Customer for the Services as set out in Schedule 3.
+"Confidential Information" means all information of a confidential nature disclosed by one Party to the other, whether in writing, orally or by any other means.
+"Contract Year" means each period of twelve (12) months starting on the Effective Date or an anniversary of it.
+"Critical Service Level" means a Service Level identified as critical in Schedule 2.
+"Deliverables" means all reports, dashboards, models and other materials produced by the Supplier for the Customer under this Agreement.
+"Early Termination Fee" means an amount equal to the Charges paid or payable for the three (3) months immediately preceding the date of termination.
+"Service Credit" means the amount calculated in accordance with Schedule 2.
+"Service Levels" means the performance standards set out in Schedule 2.
+"Services" means the services described in Schedule 1.
+1.2 Headings do not affect the interpretation of this Agreement. References to Sections and Schedules are to the sections of and schedules to this Agreement.
+
+2. Services
+2.1 The Supplier shall provide the Services to the Customer from the Effective Date in accordance with this Agreement.
+2.2 The Supplier shall meet or exceed the Service Levels in each calendar month.
+2.3 The Supplier may use subcontractors only with the Customer's prior written consent, and remains responsible for the acts and omissions of its subcontractors.
+
+3. Term
+3.1 This Agreement commences on the Effective Date and continues for an initial term of thirty-six (36) months.
+3.2 This Agreement renews automatically for successive periods of twelve (12) months unless either Party gives written notice of non-renewal not less than ninety (90) days before the end of the then-current term.
+<<<PAGE>>>
+4. Charges and Payment
+4.1 In consideration of the Services, the Customer shall pay the Charges to the Supplier.
+4.2 The Supplier shall invoice the Charges monthly in arrears. The Customer shall pay each undisputed invoice within forty-five (45) days of receipt.
+4.3 Any undisputed amount not paid when due shall carry interest at the rate of 1.5% per month from the due date until the date of actual payment.
+4.4 The Supplier may increase the Charges once in any Contract Year by giving the Customer not less than sixty (60) days' written notice, provided that any increase shall not exceed the percentage change in the Consumer Price Index published by the Government of India over the preceding twelve (12) months.
+4.5 If the Customer disputes an invoice in good faith, it shall notify the Supplier within ten (10) Business Days of receipt, stating the reasons. The Parties shall resolve the dispute in accordance with Section 16.
+4.6 All Charges are exclusive of goods and services tax, which the Customer shall pay in addition at the applicable rate.
+
+5. Service Levels and Service Credits
+5.1 If the Supplier fails to meet a Service Level in any month, the Customer shall be entitled to the Service Credit set out in Schedule 2, which the Supplier shall deduct from the next invoice.
+5.2 The total Service Credits in any month shall not exceed ten percent (10%) of the Charges for that month.
+5.3 Service Credits are a price adjustment reflecting the reduced value of the Services and are the Customer's sole and exclusive remedy for failure to meet the Service Levels, except as provided in Section 14.2.
+
+6. Customer Obligations
+6.1 The Customer shall provide the Supplier with timely access to the data, systems and personnel reasonably required to perform the Services.
+6.2 The Supplier shall not be liable for any failure to perform the Services to the extent caused by the Customer's failure to comply with Section 6.1.
+
+7. Intellectual Property
+7.1 Each Party retains ownership of its intellectual property rights existing before the Effective Date.
+7.2 All intellectual property rights in the Deliverables shall vest in the Customer upon payment in full of the Charges relating to those Deliverables.
+7.3 The Supplier grants the Customer a non-exclusive, royalty-free licence to use any Supplier tools embedded in the Deliverables for the Customer's internal business purposes.
+
+8. Confidentiality
+8.1 Each Party shall keep the other Party's Confidential Information confidential and shall use it only for the purposes of this Agreement.
+8.2 Section 8.1 does not apply to information that is or becomes public other than through a breach of this Agreement, or that a Party is required to disclose by law.
+8.3 The obligations in this Section 8 shall survive for five (5) years after the termination or expiry of this Agreement.
+
+9. Data Protection
+9.1 Each Party shall comply with the Digital Personal Data Protection Act, 2023 in relation to any personal data processed under this Agreement.
+9.2 The Supplier shall notify the Customer of any personal data breach without undue delay and in any event within seventy-two (72) hours of becoming aware of it.
+<<<PAGE>>>
+10. Warranties
+10.1 The Supplier warrants that the Services will be performed with reasonable skill and care and in accordance with good industry practice.
+10.2 The Supplier warrants that each Deliverable will conform to its agreed specification for a period of ninety (90) days from delivery. The Supplier shall correct any non-conformity notified during that period at no additional charge.
+
+11. Indemnities
+11.1 The Supplier shall indemnify the Customer against all losses arising from any third-party claim that the Deliverables infringe that third party's intellectual property rights.
+11.2 The indemnity in Section 11.1 does not apply to any infringement caused by modifications made by the Customer.
+
+12. Limitation of Liability
+12.1 Neither Party shall be liable for any indirect, special or consequential loss, or for any loss of profit, revenue or goodwill.
+12.2 Subject to Section 12.3, each Party's total aggregate liability arising under or in connection with this Agreement shall not exceed the total Charges paid in the twelve (12) months preceding the event giving rise to the claim.
+12.3 Notwithstanding Section 12.2, the limitation of liability shall not apply to liability under Section 11.1, liability for breach of Section 8, or liability for fraud.
+
+13. Insurance
+13.1 The Supplier shall maintain professional indemnity insurance with a limit of not less than INR 5,00,00,000 per claim for the term of this Agreement and for two (2) years after it ends.
+
+14. Termination
+14.1 Termination for convenience. The Customer may terminate this Agreement for convenience on not less than sixty (60) days' written notice to the Supplier, subject to payment of the Early Termination Fee.
+14.2 Termination for cause. Either Party may terminate this Agreement with immediate effect by written notice if the other Party commits a material breach that is not remedied within thirty (30) days of written notice requiring it to be remedied. The Customer may also terminate this Agreement under this Section 14.2 if the Supplier fails to meet any Critical Service Level in three (3) consecutive months.
+14.3 Notwithstanding Section 14.1, no Early Termination Fee shall be payable where the Customer terminates this Agreement under Section 14.2.
+14.4 Effect of termination. Within thirty (30) days after termination, the Supplier shall return or securely delete all Customer data, at the Customer's option.
+
+15. Force Majeure
+15.1 Neither Party shall be liable for any delay or failure to perform caused by events beyond its reasonable control. If such an event continues for more than sixty (60) days, either Party may terminate this Agreement by written notice.
+<<<PAGE>>>
+16. Dispute Resolution
+16.1 Any dispute shall first be referred to the senior executives of each Party, who shall meet within fifteen (15) Business Days to try to resolve it.
+16.2 Any dispute not resolved under Section 16.1 shall be referred to arbitration by a sole arbitrator under the Arbitration and Conciliation Act, 1996. The arbitration shall be seated in Mumbai and conducted in English.
+
+17. General
+17.1 This Agreement is governed by the laws of India, and subject to Section 16 the courts of Mumbai have exclusive jurisdiction.
+17.2 Neither Party may assign this Agreement without the prior written consent of the other Party, except that the Supplier may assign this Agreement to an Affiliate on written notice to the Customer.
+17.3 Notices under this Agreement shall be in writing and delivered by courier or by email to the addresses set out in Schedule 4.
+17.4 This Agreement, together with its Schedules, is the entire agreement between the Parties and supersedes all prior agreements relating to its subject matter.
+17.5 No amendment to this Agreement is effective unless it is in writing and signed by authorised representatives of both Parties.
+
+SCHEDULE 1 - SERVICES
+The Supplier shall provide managed data analytics services, comprising data pipeline operation, weekly sales dashboards, and quarterly demand forecasting models for the Customer's retail stores.
+
+SCHEDULE 2 - SERVICE LEVELS
+Availability: the analytics platform shall be available 99.5% of the time in each calendar month, excluding scheduled maintenance. This is a Critical Service Level.
+Incident response: the Supplier shall respond to priority 1 incidents within one (1) hour. This is a Critical Service Level.
+Service Credit: for each 0.5% by which availability falls below 99.5% in a month, a Service Credit of two percent (2%) of the monthly Charges applies.
+
+SCHEDULE 3 - CHARGES
+The monthly fee for the Services is INR 8,50,000, invoiced monthly in arrears.
+
+SCHEDULE 4 - NOTICE ADDRESSES
+Supplier: Legal Department, Northwind Analytics Private Limited, Andheri East, Mumbai. Email: legal@northwind.example
+Customer: General Counsel, Contoso Retail Limited, Lower Parel, Mumbai. Email: legal@contoso.example

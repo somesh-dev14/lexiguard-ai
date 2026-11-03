@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900;
+    min-height: 100vh;
+  }
+
+  :focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .prose-legal {
+    @apply text-gray-800 leading-relaxed;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+
+  .tab-active {
+    @apply bg-white text-gray-900 shadow-soft;
+  }
+
+  .tab-inactive {
+    @apply text-gray-500 hover:text-gray-700 hover:bg-gray-100;
+  }
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  /* Hide navigation, buttons, tab bars during print */
+  header, nav, button, .no-print, input {
+    display: none !important;
+  }
+
+  /* Show the active printed report content with proper margins and page breaks */
+  .print-only {
+    display: block !important;
+  }
+
+  .printable-report {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .printable-report section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+  }
+}

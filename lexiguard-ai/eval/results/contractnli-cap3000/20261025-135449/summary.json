@@ -1,0 +1,108 @@
+{
+  "retrieval": {
+    "bm25": {
+      "n": 291,
+      "mrr": 0.7631,
+      "hit@1": 0.6426,
+      "recall@1": 0.5604,
+      "complete@1": 0.4914,
+      "char_recall@1": 0.5766,
+      "char_precision@1": 0.2033,
+      "primary_recall@1": 0.5293,
+      "primary_items": 444,
+      "hit@3": 0.8625,
+      "recall@3": 0.8156,
+      "complete@3": 0.7698,
+      "char_recall@3": 0.821,
+      "char_precision@3": 0.102,
+      "primary_recall@3": 0.795,
+      "hit@5": 0.9278,
+      "recall@5": 0.8938,
+      "complete@5": 0.8591,
+      "char_recall@5": 0.9029,
+      "char_precision@5": 0.0753,
+      "primary_recall@5": 0.8806,
+      "hit@10": 0.9897,
+      "recall@10": 0.9782,
+      "complete@10": 0.9691,
+      "char_recall@10": 0.9784,
+      "char_precision@10": 0.0557,
+      "primary_recall@10": 0.9707,
+      "by_type": {
+        "nli_contradiction": {
+          "n": 52,
+          "complete@1": 0.5385,
+          "complete@3": 0.7692,
+          "complete@5": 0.8654,
+          "complete@10": 1.0
+        },
+        "nli_entailment": {
+          "n": 239,
+          "complete@1": 0.4812,
+          "complete@3": 0.7699,
+          "complete@5": 0.8577,
+          "complete@10": 0.9623
+        }
+      },
+      "components_used": [
+        "bm25"
+      ],
+      "mean_top1_bm25_score_answerable": 7.0834,
+      "mean_top1_bm25_score_unanswerable": 6.2735
+    },
+    "hybrid": {
+      "n": 291,
+      "mrr": 0.7395,
+      "hit@1": 0.5911,
+      "recall@1": 0.5272,
+      "complete@1": 0.4639,
+      "char_recall@1": 0.5357,
+      "char_precision@1": 0.1895,
+      "primary_recall@1": 0.4977,
+      "primary_items": 444,
+      "hit@3": 0.8591,
+      "recall@3": 0.8084,
+      "complete@3": 0.756,
+      "char_recall@3": 0.8146,
+      "char_precision@3": 0.1041,
+      "primary_recall@3": 0.786,
+      "hit@5": 0.9416,
+      "recall@5": 0.9198,
+      "complete@5": 0.8969,
+      "char_recall@5": 0.9223,
+      "char_precision@5": 0.0798,
+      "primary_recall@5": 0.9099,
+      "hit@10": 0.9897,
+      "recall@10": 0.9782,
+      "complete@10": 0.9656,
+      "char_recall@10": 0.979,
+      "char_precision@10": 0.055,
+      "primary_recall@10": 0.9707,
+      "by_type": {
+        "nli_contradiction": {
+          "n": 52,
+          "complete@1": 0.5,
+          "complete@3": 0.7115,
+          "complete@5": 0.8846,
+          "complete@10": 1.0
+        },
+        "nli_entailment": {
+          "n": 239,
+          "complete@1": 0.4561,
+          "complete@3": 0.7657,
+          "complete@5": 0.8996,
+          "complete@10": 0.9582
+        }
+      },
+      "components_used": [
+        "bm25",
+        "dense"
+      ],
+      "mean_top1_bm25_score_answerable": 6.4247,
+      "mean_top1_bm25_score_unanswerable": 5.2556
+    }
+  },
+  "baseline_context": {
+    "skipped": "dataset has no page layout; the baseline's per-page cut cannot be reproduced"
+  }
+}

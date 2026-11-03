@@ -1,0 +1,15 @@
+{
+  "source": "ContractNLI (Koreeda & Manning, 2021), CC BY 4.0",
+  "paginated": false,
+  "split": "test",
+  "documents": 30,
+  "questions": 510,
+  "labels": {
+    "Entailment": 239,
+    "Contradiction": 52,
+    "NotMentioned": 219
+  },
+  "max_docs": 30,
+  "seed": "lexiguard",
+  "question_template": "According to the agreement, is the following true: <hypothesis>?"
+}

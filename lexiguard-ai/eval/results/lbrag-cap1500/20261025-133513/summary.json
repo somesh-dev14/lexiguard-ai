@@ -1,0 +1,262 @@
+{
+  "retrieval": {
+    "bm25": {
+      "n": 200,
+      "mrr": 0.4571,
+      "hit@1": 0.34,
+      "recall@1": 0.3092,
+      "complete@1": 0.28,
+      "char_recall@1": 0.3062,
+      "char_precision@1": 0.1671,
+      "primary_recall@1": 0.2533,
+      "primary_items": 300,
+      "hit@3": 0.54,
+      "recall@3": 0.5025,
+      "complete@3": 0.46,
+      "char_recall@3": 0.5012,
+      "char_precision@3": 0.0931,
+      "primary_recall@3": 0.4267,
+      "hit@5": 0.645,
+      "recall@5": 0.5958,
+      "complete@5": 0.545,
+      "char_recall@5": 0.5965,
+      "char_precision@5": 0.0801,
+      "primary_recall@5": 0.53,
+      "hit@10": 0.7,
+      "recall@10": 0.675,
+      "complete@10": 0.65,
+      "char_recall@10": 0.6755,
+      "char_precision@10": 0.0639,
+      "primary_recall@10": 0.6233,
+      "by_type": {
+        "contractnli": {
+          "n": 50,
+          "complete@1": 0.5,
+          "complete@3": 0.76,
+          "complete@5": 0.92,
+          "complete@10": 1.0
+        },
+        "cuad": {
+          "n": 50,
+          "complete@1": 0.42,
+          "complete@3": 0.58,
+          "complete@5": 0.62,
+          "complete@10": 0.72
+        },
+        "maud": {
+          "n": 50,
+          "complete@1": 0.02,
+          "complete@3": 0.06,
+          "complete@5": 0.12,
+          "complete@10": 0.16
+        },
+        "privacy_qa": {
+          "n": 50,
+          "complete@1": 0.18,
+          "complete@3": 0.44,
+          "complete@5": 0.52,
+          "complete@10": 0.72
+        }
+      },
+      "components_used": [
+        "bm25"
+      ],
+      "mean_top1_bm25_score_answerable": 5.4601
+    },
+    "dense": {
+      "n": 200,
+      "mrr": 0.4998,
+      "hit@1": 0.365,
+      "recall@1": 0.3075,
+      "complete@1": 0.255,
+      "char_recall@1": 0.2975,
+      "char_precision@1": 0.1862,
+      "primary_recall@1": 0.27,
+      "primary_items": 300,
+      "hit@3": 0.585,
+      "recall@3": 0.5424,
+      "complete@3": 0.5,
+      "char_recall@3": 0.5441,
+      "char_precision@3": 0.1028,
+      "primary_recall@3": 0.49,
+      "hit@5": 0.71,
+      "recall@5": 0.664,
+      "complete@5": 0.615,
+      "char_recall@5": 0.6649,
+      "char_precision@5": 0.0891,
+      "primary_recall@5": 0.61,
+      "hit@10": 0.79,
+      "recall@10": 0.7614,
+      "complete@10": 0.735,
+      "char_recall@10": 0.7685,
+      "char_precision@10": 0.0654,
+      "primary_recall@10": 0.7167,
+      "by_type": {
+        "contractnli": {
+          "n": 50,
+          "complete@1": 0.32,
+          "complete@3": 0.56,
+          "complete@5": 0.86,
+          "complete@10": 0.92
+        },
+        "cuad": {
+          "n": 50,
+          "complete@1": 0.42,
+          "complete@3": 0.68,
+          "complete@5": 0.68,
+          "complete@10": 0.86
+        },
+        "maud": {
+          "n": 50,
+          "complete@1": 0.06,
+          "complete@3": 0.1,
+          "complete@5": 0.12,
+          "complete@10": 0.18
+        },
+        "privacy_qa": {
+          "n": 50,
+          "complete@1": 0.22,
+          "complete@3": 0.66,
+          "complete@5": 0.8,
+          "complete@10": 0.98
+        }
+      },
+      "components_used": [
+        "dense"
+      ],
+      "mean_top1_dense_score_answerable": 0.5217
+    },
+    "hybrid": {
+      "n": 200,
+      "mrr": 0.5218,
+      "hit@1": 0.375,
+      "recall@1": 0.3308,
+      "complete@1": 0.285,
+      "char_recall@1": 0.3279,
+      "char_precision@1": 0.1855,
+      "primary_recall@1": 0.2833,
+      "primary_items": 300,
+      "hit@3": 0.645,
+      "recall@3": 0.5825,
+      "complete@3": 0.515,
+      "char_recall@3": 0.5858,
+      "char_precision@3": 0.1095,
+      "primary_recall@3": 0.53,
+      "hit@5": 0.715,
+      "recall@5": 0.6742,
+      "complete@5": 0.63,
+      "char_recall@5": 0.6703,
+      "char_precision@5": 0.0869,
+      "primary_recall@5": 0.6133,
+      "hit@10": 0.795,
+      "recall@10": 0.7757,
+      "complete@10": 0.76,
+      "char_recall@10": 0.7802,
+      "char_precision@10": 0.063,
+      "primary_recall@10": 0.7133,
+      "by_type": {
+        "contractnli": {
+          "n": 50,
+          "complete@1": 0.46,
+          "complete@3": 0.76,
+          "complete@5": 0.88,
+          "complete@10": 1.0
+        },
+        "cuad": {
+          "n": 50,
+          "complete@1": 0.5,
+          "complete@3": 0.64,
+          "complete@5": 0.72,
+          "complete@10": 0.84
+        },
+        "maud": {
+          "n": 50,
+          "complete@1": 0.02,
+          "complete@3": 0.02,
+          "complete@5": 0.1,
+          "complete@10": 0.24
+        },
+        "privacy_qa": {
+          "n": 50,
+          "complete@1": 0.16,
+          "complete@3": 0.64,
+          "complete@5": 0.82,
+          "complete@10": 0.96
+        }
+      },
+      "components_used": [
+        "bm25",
+        "dense"
+      ],
+      "mean_top1_bm25_score_answerable": 4.8961
+    },
+    "hybrid+rerank": {
+      "n": 200,
+      "mrr": 0.5515,
+      "hit@1": 0.425,
+      "recall@1": 0.3758,
+      "complete@1": 0.33,
+      "char_recall@1": 0.3763,
+      "char_precision@1": 0.2061,
+      "primary_recall@1": 0.31,
+      "primary_items": 300,
+      "hit@3": 0.635,
+      "recall@3": 0.5702,
+      "complete@3": 0.51,
+      "char_recall@3": 0.5693,
+      "char_precision@3": 0.1061,
+      "primary_recall@3": 0.5067,
+      "hit@5": 0.71,
+      "recall@5": 0.6652,
+      "complete@5": 0.62,
+      "char_recall@5": 0.6679,
+      "char_precision@5": 0.0843,
+      "primary_recall@5": 0.61,
+      "hit@10": 0.8,
+      "recall@10": 0.776,
+      "complete@10": 0.755,
+      "char_recall@10": 0.7785,
+      "char_precision@10": 0.0635,
+      "primary_recall@10": 0.7267,
+      "by_type": {
+        "contractnli": {
+          "n": 50,
+          "complete@1": 0.46,
+          "complete@3": 0.66,
+          "complete@5": 0.84,
+          "complete@10": 1.0
+        },
+        "cuad": {
+          "n": 50,
+          "complete@1": 0.56,
+          "complete@3": 0.74,
+          "complete@5": 0.8,
+          "complete@10": 0.86
+        },
+        "maud": {
+          "n": 50,
+          "complete@1": 0.06,
+          "complete@3": 0.08,
+          "complete@5": 0.1,
+          "complete@10": 0.24
+        },
+        "privacy_qa": {
+          "n": 50,
+          "complete@1": 0.24,
+          "complete@3": 0.56,
+          "complete@5": 0.74,
+          "complete@10": 0.92
+        }
+      },
+      "components_used": [
+        "bm25",
+        "dense",
+        "rerank"
+      ],
+      "mean_top1_rerank_score_answerable": -0.5634
+    }
+  },
+  "baseline_context": {
+    "skipped": "dataset has no page layout; the baseline's per-page cut cannot be reproduced"
+  }
+}

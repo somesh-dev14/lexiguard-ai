@@ -1,0 +1,35 @@
+SERVICE AGREEMENT
+
+This Service Agreement (Agreement) is entered into as of January 1, 2025,
+by and between Alpha Technologies Inc. (Provider) and Beta Corp. (Client).
+
+1. Parties and Services. Provider agrees to deliver software development and
+consulting services as described in Exhibit A attached hereto.
+
+2. Confidentiality. Each party agrees to hold in strict confidence all
+Proprietary Information disclosed by the other party.
+
+3. Payment Obligations. Client shall pay Provider the sum of INR 120,000
+(Indian Rupees One Lakh Twenty Thousand) within thirty (30) days of receipt
+of a valid invoice. Overdue undisputed amounts shall accrue interest at the
+rate of 1% per month, subject to applicable law. All invoices must include
+a description of services rendered and the applicable purchase order number.
+Client may dispute an invoice in writing within fifteen (15) days of receipt.
+
+4. Indemnification. Provider agrees to defend, indemnify, and hold harmless
+Client from third-party claims arising from Provider gross negligence.
+
+5. Termination. Either party may terminate this Agreement upon thirty (30)
+days written notice.
+
+6. Governing Law. This Agreement shall be governed by the laws of the
+State of Delaware.
+
+7. Limitation of Liability. In no event shall either party be liable for
+any indirect, incidental, special, or consequential damages.
+<<<PAGE>>>
+8. Notices and Amendments. All notices required hereunder shall be in
+writing and delivered by certified mail or email with read receipt.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the
+date first written above.

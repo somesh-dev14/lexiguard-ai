@@ -1,0 +1,166 @@
+{
+  "retrieval": {
+    "bm25": {
+      "n": 20,
+      "mrr": 0.9667,
+      "hit@1": 0.95,
+      "recall@1": 0.825,
+      "complete@1": 0.7,
+      "char_recall@1": 0.8361,
+      "char_precision@1": 0.3224,
+      "primary_recall@1": 0.8,
+      "primary_items": 20,
+      "dependency_recall@1": 0.6667,
+      "dependency_items": 6,
+      "hit@3": 1.0,
+      "recall@3": 0.9,
+      "complete@3": 0.8,
+      "char_recall@3": 0.9015,
+      "char_precision@3": 0.1393,
+      "primary_recall@3": 0.9,
+      "dependency_recall@3": 0.6667,
+      "hit@5": 1.0,
+      "recall@5": 0.9,
+      "complete@5": 0.8,
+      "char_recall@5": 0.9015,
+      "char_precision@5": 0.089,
+      "primary_recall@5": 0.9,
+      "dependency_recall@5": 0.6667,
+      "hit@10": 1.0,
+      "recall@10": 0.95,
+      "complete@10": 0.9,
+      "char_recall@10": 0.9449,
+      "char_precision@10": 0.0573,
+      "primary_recall@10": 1.0,
+      "dependency_recall@10": 0.6667,
+      "by_type": {
+        "attachment": {
+          "n": 2,
+          "complete@1": 0.5,
+          "complete@3": 0.5,
+          "complete@5": 0.5,
+          "complete@10": 1.0
+        },
+        "definition": {
+          "n": 1,
+          "complete@1": 0.0,
+          "complete@3": 0.0,
+          "complete@5": 0.0,
+          "complete@10": 0.0
+        },
+        "direct": {
+          "n": 14,
+          "complete@1": 0.9286,
+          "complete@3": 1.0,
+          "complete@5": 1.0,
+          "complete@10": 1.0
+        },
+        "override": {
+          "n": 2,
+          "complete@1": 0.0,
+          "complete@3": 0.5,
+          "complete@5": 0.5,
+          "complete@10": 1.0
+        },
+        "xref": {
+          "n": 1,
+          "complete@1": 0.0,
+          "complete@3": 0.0,
+          "complete@5": 0.0,
+          "complete@10": 0.0
+        }
+      },
+      "components_used": [
+        "bm25"
+      ],
+      "mean_top1_bm25_score_answerable": 7.585,
+      "mean_top1_bm25_score_unanswerable": 6.6467
+    },
+    "hybrid+rerank": {
+      "n": 20,
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 0.875,
+      "complete@1": 0.75,
+      "char_recall@1": 0.8861,
+      "char_precision@1": 0.3389,
+      "primary_recall@1": 0.85,
+      "primary_items": 20,
+      "dependency_recall@1": 0.6667,
+      "dependency_items": 6,
+      "hit@3": 1.0,
+      "recall@3": 0.925,
+      "complete@3": 0.85,
+      "char_recall@3": 0.9214,
+      "char_precision@3": 0.1198,
+      "primary_recall@3": 0.95,
+      "dependency_recall@3": 0.6667,
+      "hit@5": 1.0,
+      "recall@5": 0.925,
+      "complete@5": 0.85,
+      "char_recall@5": 0.9214,
+      "char_precision@5": 0.0748,
+      "primary_recall@5": 0.95,
+      "dependency_recall@5": 0.6667,
+      "hit@10": 1.0,
+      "recall@10": 0.95,
+      "complete@10": 0.9,
+      "char_recall@10": 0.9449,
+      "char_precision@10": 0.0393,
+      "primary_recall@10": 1.0,
+      "dependency_recall@10": 0.6667,
+      "by_type": {
+        "attachment": {
+          "n": 2,
+          "complete@1": 0.5,
+          "complete@3": 1.0,
+          "complete@5": 1.0,
+          "complete@10": 1.0
+        },
+        "definition": {
+          "n": 1,
+          "complete@1": 0.0,
+          "complete@3": 0.0,
+          "complete@5": 0.0,
+          "complete@10": 0.0
+        },
+        "direct": {
+          "n": 14,
+          "complete@1": 1.0,
+          "complete@3": 1.0,
+          "complete@5": 1.0,
+          "complete@10": 1.0
+        },
+        "override": {
+          "n": 2,
+          "complete@1": 0.0,
+          "complete@3": 0.5,
+          "complete@5": 0.5,
+          "complete@10": 1.0
+        },
+        "xref": {
+          "n": 1,
+          "complete@1": 0.0,
+          "complete@3": 0.0,
+          "complete@5": 0.0,
+          "complete@10": 0.0
+        }
+      },
+      "components_used": [
+        "bm25",
+        "dense",
+        "rerank"
+      ],
+      "mean_top1_rerank_score_answerable": 4.7751,
+      "mean_top1_rerank_score_unanswerable": -4.0126
+    }
+  },
+  "baseline_context": {
+    "gold_items_present": "25/26",
+    "questions_with_all_gold_present": "19/20",
+    "est_prompt_tokens_by_contract": {
+      "msa_synthetic.txt": 2642,
+      "sample_service_agreement.txt": 407
+    }
+  }
+}

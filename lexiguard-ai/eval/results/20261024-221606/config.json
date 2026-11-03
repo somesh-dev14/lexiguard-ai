@@ -1,0 +1,105 @@
+{
+  "started": "2026-10-24T22:16:06",
+  "data": "C:\\Users\\warso\\Downloads\\legal_ai_analyzer\\lexiguard-ai\\eval\\data\\seed",
+  "dataset_meta": {
+    "paginated": true
+  },
+  "setting": "within-document retrieval: each question searches only the clauses of its own contract",
+  "span_threshold": 0.5,
+  "questions": 25,
+  "contracts": {
+    "msa_synthetic.txt": {
+      "pages": 4,
+      "words": 1692,
+      "index": {
+        "doc_id": "eval_msa_synthetic",
+        "clauses": 68,
+        "definitions": 15,
+        "sections": 63,
+        "attachments": [
+          "Schedule 1",
+          "Schedule 2",
+          "Schedule 3",
+          "Schedule 4"
+        ],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 10671,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.992,
+        "non_whitespace_chars": 8960,
+        "build_seconds_structural": 0.021,
+        "build_seconds_dense": 53.864
+      }
+    },
+    "sample_service_agreement.txt": {
+      "pages": 2,
+      "words": 243,
+      "index": {
+        "doc_id": "eval_sample_service_agreement",
+        "clauses": 9,
+        "definitions": 0,
+        "sections": 8,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 1596,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9906,
+        "non_whitespace_chars": 1345,
+        "build_seconds_structural": 0.003,
+        "build_seconds_dense": 0.168
+      }
+    }
+  },
+  "variants": [
+    "bm25",
+    "hybrid+rerank"
+  ],
+  "ks": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "with_llm": false,
+  "settings": {
+    "EVIDENCE_CANDIDATE_POOL": 20,
+    "EVIDENCE_CLASSIFY_AT_INDEX": false,
+    "EVIDENCE_DENSE_ENABLED": true,
+    "EVIDENCE_EMBED_MODEL": "sentence-transformers/all-MiniLM-L6-v2",
+    "EVIDENCE_MAX_CLAUSES": 500,
+    "EVIDENCE_MAX_CONTEXT_CHARS": 12000,
+    "EVIDENCE_MODELS_LOCAL_ONLY": true,
+    "EVIDENCE_RERANK_ENABLED": true,
+    "EVIDENCE_RERANK_MODEL": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "EVIDENCE_RRF_K": 60,
+    "EVIDENCE_TOP_K": 5,
+    "OLLAMA_BASE_URL": "http://localhost:11434",
+    "OLLAMA_DISABLE_THINKING": true,
+    "OLLAMA_MODEL": "qwen3:4b",
+    "OLLAMA_NUM_PREDICT": 512,
+    "OLLAMA_TEMPERATURE": 0.2,
+    "OLLAMA_TIMEOUT_SECONDS": 120.0,
+    "QA_MODE": "baseline"
+  },
+  "model_load_errors": {},
+  "dataset_warnings": [],
+  "segmentation_warnings": [],
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

@@ -1,0 +1,15 @@
+{
+  "repo_id": "litillabs/litil-clause-classifier",
+  "selected_checkpoint_revision": "136c5138e3b40b43b192b965fdee48fb9591784f",
+  "weight_filename": "model.safetensors",
+  "weight_sha256": "0c33bae20ce7edf1e0a2d5a71c5bb93aa30e5dd729564c12b585ddfde18293e3",
+  "weight_bytes": 1583753448,
+  "base_model": "answerdotai/ModernBERT-large",
+  "architecture": "ModernBertForSequenceClassification",
+  "dataset": "coastalcph/lex_glue",
+  "dataset_revision": "c23fdff1a6bf74e0e1a71cb86f1e781d37da888c",
+  "data_status": "public_source_bound",
+  "network_downloads_required_by_example": 0,
+  "weights_included_in_repository": true,
+  "model_name": "LiTiL Clause Classifier"
+}

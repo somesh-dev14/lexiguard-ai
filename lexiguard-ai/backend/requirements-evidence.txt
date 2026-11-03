@@ -1,0 +1,7 @@
+# Optional: dense retrieval and reranking for QA_MODE=retrieval and the eval harness.
+# Not needed for the default baseline mode. These currently come from the system
+# Python (see ML_SITE_PACKAGES in app/core/config.py); install them into the venv
+# instead if you prefer a self-contained environment.
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+numpy>=1.26

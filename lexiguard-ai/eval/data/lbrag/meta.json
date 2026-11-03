@@ -1,0 +1,35 @@
+{
+  "source": "LegalBench-RAG (Pipitone & Alami, 2024, arXiv:2408.10343)",
+  "paginated": false,
+  "setting_note": "within-document retrieval; not comparable to the paper's corpus-level scores",
+  "doc_prefix_removed": true,
+  "max_per_benchmark": 50,
+  "seed": "lexiguard",
+  "documents": 18,
+  "questions": 200,
+  "skipped_multi_file": 0,
+  "skipped_bad_span": 0,
+  "skipped_missing_file": 0,
+  "per_benchmark": {
+    "contractnli": {
+      "available": 977,
+      "sampled": 50,
+      "kept": 50
+    },
+    "cuad": {
+      "available": 4042,
+      "sampled": 50,
+      "kept": 50
+    },
+    "maud": {
+      "available": 1676,
+      "sampled": 50,
+      "kept": 50
+    },
+    "privacy_qa": {
+      "available": 194,
+      "sampled": 50,
+      "kept": 50
+    }
+  }
+}

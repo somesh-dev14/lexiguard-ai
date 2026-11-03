@@ -1,0 +1,134 @@
+{
+  "retrieval": {
+    "bm25": {
+      "n": 200,
+      "mrr": 0.3891,
+      "hit@1": 0.28,
+      "recall@1": 0.2517,
+      "complete@1": 0.225,
+      "char_recall@1": 0.2493,
+      "char_precision@1": 0.1907,
+      "primary_recall@1": 0.2033,
+      "primary_items": 300,
+      "hit@3": 0.46,
+      "recall@3": 0.4083,
+      "complete@3": 0.36,
+      "char_recall@3": 0.4109,
+      "char_precision@3": 0.1112,
+      "primary_recall@3": 0.3367,
+      "hit@5": 0.555,
+      "recall@5": 0.4925,
+      "complete@5": 0.43,
+      "char_recall@5": 0.4943,
+      "char_precision@5": 0.0925,
+      "primary_recall@5": 0.4167,
+      "hit@10": 0.62,
+      "recall@10": 0.5592,
+      "complete@10": 0.5,
+      "char_recall@10": 0.5692,
+      "char_precision@10": 0.0747,
+      "primary_recall@10": 0.5,
+      "by_type": {
+        "contractnli": {
+          "n": 50,
+          "complete@1": 0.48,
+          "complete@3": 0.7,
+          "complete@5": 0.76,
+          "complete@10": 0.88
+        },
+        "cuad": {
+          "n": 50,
+          "complete@1": 0.32,
+          "complete@3": 0.46,
+          "complete@5": 0.56,
+          "complete@10": 0.6
+        },
+        "maud": {
+          "n": 50,
+          "complete@1": 0.0,
+          "complete@3": 0.04,
+          "complete@5": 0.04,
+          "complete@10": 0.04
+        },
+        "privacy_qa": {
+          "n": 50,
+          "complete@1": 0.1,
+          "complete@3": 0.24,
+          "complete@5": 0.36,
+          "complete@10": 0.48
+        }
+      },
+      "components_used": [
+        "bm25"
+      ],
+      "mean_top1_bm25_score_answerable": 5.8704
+    },
+    "hybrid": {
+      "n": 200,
+      "mrr": 0.4447,
+      "hit@1": 0.315,
+      "recall@1": 0.2833,
+      "complete@1": 0.255,
+      "char_recall@1": 0.2826,
+      "char_precision@1": 0.2098,
+      "primary_recall@1": 0.2233,
+      "primary_items": 300,
+      "hit@3": 0.53,
+      "recall@3": 0.4708,
+      "complete@3": 0.415,
+      "char_recall@3": 0.4684,
+      "char_precision@3": 0.1316,
+      "primary_recall@3": 0.4,
+      "hit@5": 0.62,
+      "recall@5": 0.5542,
+      "complete@5": 0.49,
+      "char_recall@5": 0.5545,
+      "char_precision@5": 0.1025,
+      "primary_recall@5": 0.4867,
+      "hit@10": 0.715,
+      "recall@10": 0.6708,
+      "complete@10": 0.625,
+      "char_recall@10": 0.6739,
+      "char_precision@10": 0.078,
+      "primary_recall@10": 0.5967,
+      "by_type": {
+        "contractnli": {
+          "n": 50,
+          "complete@1": 0.44,
+          "complete@3": 0.66,
+          "complete@5": 0.74,
+          "complete@10": 0.88
+        },
+        "cuad": {
+          "n": 50,
+          "complete@1": 0.42,
+          "complete@3": 0.56,
+          "complete@5": 0.58,
+          "complete@10": 0.74
+        },
+        "maud": {
+          "n": 50,
+          "complete@1": 0.02,
+          "complete@3": 0.02,
+          "complete@5": 0.04,
+          "complete@10": 0.08
+        },
+        "privacy_qa": {
+          "n": 50,
+          "complete@1": 0.14,
+          "complete@3": 0.42,
+          "complete@5": 0.6,
+          "complete@10": 0.8
+        }
+      },
+      "components_used": [
+        "bm25",
+        "dense"
+      ],
+      "mean_top1_bm25_score_answerable": 5.1618
+    }
+  },
+  "baseline_context": {
+    "skipped": "dataset has no page layout; the baseline's per-page cut cannot be reproduced"
+  }
+}

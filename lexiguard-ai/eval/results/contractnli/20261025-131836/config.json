@@ -1,0 +1,889 @@
+{
+  "started": "2026-10-25T13:18:36",
+  "data": "C:\\Users\\warso\\Downloads\\legal_ai_analyzer\\lexiguard-ai\\eval\\data\\contractnli",
+  "dataset_meta": {
+    "source": "ContractNLI (Koreeda & Manning, 2021), CC BY 4.0",
+    "paginated": false,
+    "split": "test",
+    "documents": 30,
+    "questions": 510,
+    "labels": {
+      "Entailment": 239,
+      "Contradiction": 52,
+      "NotMentioned": 219
+    },
+    "max_docs": 30,
+    "seed": "lexiguard",
+    "question_template": "According to the agreement, is the following true: <hypothesis>?"
+  },
+  "setting": "within-document retrieval: each question searches only the clauses of its own contract",
+  "span_threshold": 0.5,
+  "questions": 510,
+  "contracts": {
+    "cnli_18.txt": {
+      "pages": 1,
+      "words": 966,
+      "index": {
+        "doc_id": "eval_cnli_18",
+        "clauses": 8,
+        "definitions": 0,
+        "sections": 6,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 6225,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9987,
+        "non_whitespace_chars": 5259,
+        "build_seconds_structural": 0.005,
+        "build_seconds_dense": 52.428
+      }
+    },
+    "cnli_225.txt": {
+      "pages": 1,
+      "words": 502,
+      "index": {
+        "doc_id": "eval_cnli_225",
+        "clauses": 16,
+        "definitions": 0,
+        "sections": 15,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 3456,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9954,
+        "non_whitespace_chars": 2954,
+        "build_seconds_structural": 0.004,
+        "build_seconds_dense": 0.463
+      }
+    },
+    "cnli_227.txt": {
+      "pages": 1,
+      "words": 3250,
+      "index": {
+        "doc_id": "eval_cnli_227",
+        "clauses": 1,
+        "definitions": 0,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 20823,
+        "unlocated_clauses": 0,
+        "char_coverage": 1.0,
+        "non_whitespace_chars": 17573,
+        "build_seconds_structural": 0.265,
+        "build_seconds_dense": 0.045
+      }
+    },
+    "cnli_228.txt": {
+      "pages": 1,
+      "words": 857,
+      "index": {
+        "doc_id": "eval_cnli_228",
+        "clauses": 1,
+        "definitions": 3,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "2",
+          "5.2.3.8"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 5947,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9998,
+        "non_whitespace_chars": 5088,
+        "build_seconds_structural": 0.02,
+        "build_seconds_dense": 0.045
+      }
+    },
+    "cnli_23.txt": {
+      "pages": 1,
+      "words": 2336,
+      "index": {
+        "doc_id": "eval_cnli_23",
+        "clauses": 63,
+        "definitions": 8,
+        "sections": 62,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 15198,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9936,
+        "non_whitespace_chars": 12862,
+        "build_seconds_structural": 0.028,
+        "build_seconds_dense": 1.188
+      }
+    },
+    "cnli_293.txt": {
+      "pages": 1,
+      "words": 205,
+      "index": {
+        "doc_id": "eval_cnli_293",
+        "clauses": 3,
+        "definitions": 0,
+        "sections": 2,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 1231,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9976,
+        "non_whitespace_chars": 1026,
+        "build_seconds_structural": 0.002,
+        "build_seconds_dense": 0.117
+      }
+    },
+    "cnli_31.txt": {
+      "pages": 1,
+      "words": 836,
+      "index": {
+        "doc_id": "eval_cnli_31",
+        "clauses": 6,
+        "definitions": 4,
+        "sections": 5,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 5757,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.999,
+        "non_whitespace_chars": 4921,
+        "build_seconds_structural": 0.009,
+        "build_seconds_dense": 0.266
+      }
+    },
+    "cnli_336.txt": {
+      "pages": 1,
+      "words": 1867,
+      "index": {
+        "doc_id": "eval_cnli_336",
+        "clauses": 46,
+        "definitions": 10,
+        "sections": 45,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 11535,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9958,
+        "non_whitespace_chars": 9666,
+        "build_seconds_structural": 0.046,
+        "build_seconds_dense": 2.388
+      }
+    },
+    "cnli_36.txt": {
+      "pages": 1,
+      "words": 2020,
+      "index": {
+        "doc_id": "eval_cnli_36",
+        "clauses": 27,
+        "definitions": 2,
+        "sections": 26,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 12909,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9979,
+        "non_whitespace_chars": 10889,
+        "build_seconds_structural": 0.04,
+        "build_seconds_dense": 1.521
+      }
+    },
+    "cnli_387.txt": {
+      "pages": 1,
+      "words": 1312,
+      "index": {
+        "doc_id": "eval_cnli_387",
+        "clauses": 20,
+        "definitions": 5,
+        "sections": 19,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 8580,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9963,
+        "non_whitespace_chars": 7268,
+        "build_seconds_structural": 0.016,
+        "build_seconds_dense": 0.841
+      }
+    },
+    "cnli_392.txt": {
+      "pages": 1,
+      "words": 1306,
+      "index": {
+        "doc_id": "eval_cnli_392",
+        "clauses": 7,
+        "definitions": 5,
+        "sections": 6,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 8777,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9992,
+        "non_whitespace_chars": 7471,
+        "build_seconds_structural": 0.014,
+        "build_seconds_dense": 0.342
+      }
+    },
+    "cnli_4.txt": {
+      "pages": 1,
+      "words": 380,
+      "index": {
+        "doc_id": "eval_cnli_4",
+        "clauses": 9,
+        "definitions": 0,
+        "sections": 8,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 2405,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9963,
+        "non_whitespace_chars": 2025,
+        "build_seconds_structural": 0.002,
+        "build_seconds_dense": 0.271
+      }
+    },
+    "cnli_493.txt": {
+      "pages": 1,
+      "words": 1289,
+      "index": {
+        "doc_id": "eval_cnli_493",
+        "clauses": 15,
+        "definitions": 5,
+        "sections": 11,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 8193,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9982,
+        "non_whitespace_chars": 6904,
+        "build_seconds_structural": 0.013,
+        "build_seconds_dense": 0.691
+      }
+    },
+    "cnli_496.txt": {
+      "pages": 1,
+      "words": 1861,
+      "index": {
+        "doc_id": "eval_cnli_496",
+        "clauses": 7,
+        "definitions": 8,
+        "sections": 0,
+        "attachments": [
+          "Annex D"
+        ],
+        "unresolved_xrefs": [
+          "5"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 12651,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9994,
+        "non_whitespace_chars": 10790,
+        "build_seconds_structural": 0.022,
+        "build_seconds_dense": 0.371
+      }
+    },
+    "cnli_50.txt": {
+      "pages": 1,
+      "words": 806,
+      "index": {
+        "doc_id": "eval_cnli_50",
+        "clauses": 1,
+        "definitions": 0,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 4944,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9998,
+        "non_whitespace_chars": 4134,
+        "build_seconds_structural": 0.033,
+        "build_seconds_dense": 0.076
+      }
+    },
+    "cnli_52.txt": {
+      "pages": 1,
+      "words": 1999,
+      "index": {
+        "doc_id": "eval_cnli_52",
+        "clauses": 14,
+        "definitions": 0,
+        "sections": 13,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "103",
+          "230",
+          "29.8",
+          "552",
+          "641",
+          "721",
+          "793",
+          "794",
+          "798",
+          "952"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 12918,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9988,
+        "non_whitespace_chars": 10918,
+        "build_seconds_structural": 0.018,
+        "build_seconds_dense": 0.607
+      }
+    },
+    "cnli_523.txt": {
+      "pages": 1,
+      "words": 2580,
+      "index": {
+        "doc_id": "eval_cnli_523",
+        "clauses": 1,
+        "definitions": 4,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "13"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 16383,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9999,
+        "non_whitespace_chars": 13802,
+        "build_seconds_structural": 0.107,
+        "build_seconds_dense": 0.089
+      }
+    },
+    "cnli_543.txt": {
+      "pages": 1,
+      "words": 1059,
+      "index": {
+        "doc_id": "eval_cnli_543",
+        "clauses": 8,
+        "definitions": 4,
+        "sections": 7,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 7276,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9989,
+        "non_whitespace_chars": 6217,
+        "build_seconds_structural": 0.012,
+        "build_seconds_dense": 0.684
+      }
+    },
+    "cnli_544.txt": {
+      "pages": 1,
+      "words": 1745,
+      "index": {
+        "doc_id": "eval_cnli_544",
+        "clauses": 13,
+        "definitions": 3,
+        "sections": 12,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 11336,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9989,
+        "non_whitespace_chars": 9591,
+        "build_seconds_structural": 0.016,
+        "build_seconds_dense": 0.578
+      }
+    },
+    "cnli_55.txt": {
+      "pages": 1,
+      "words": 1478,
+      "index": {
+        "doc_id": "eval_cnli_55",
+        "clauses": 1,
+        "definitions": 11,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "2",
+          "3"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 10403,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9999,
+        "non_whitespace_chars": 8923,
+        "build_seconds_structural": 0.072,
+        "build_seconds_dense": 0.104
+      }
+    },
+    "cnli_555.txt": {
+      "pages": 1,
+      "words": 2064,
+      "index": {
+        "doc_id": "eval_cnli_555",
+        "clauses": 5,
+        "definitions": 7,
+        "sections": 4,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "8"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 13399,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9996,
+        "non_whitespace_chars": 11335,
+        "build_seconds_structural": 0.021,
+        "build_seconds_dense": 0.221
+      }
+    },
+    "cnli_565.txt": {
+      "pages": 1,
+      "words": 3091,
+      "index": {
+        "doc_id": "eval_cnli_565",
+        "clauses": 8,
+        "definitions": 10,
+        "sections": 7,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "13"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 20047,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9993,
+        "non_whitespace_chars": 16929,
+        "build_seconds_structural": 0.031,
+        "build_seconds_dense": 0.362
+      }
+    },
+    "cnli_57.txt": {
+      "pages": 1,
+      "words": 586,
+      "index": {
+        "doc_id": "eval_cnli_57",
+        "clauses": 1,
+        "definitions": 2,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 4008,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9998,
+        "non_whitespace_chars": 3422,
+        "build_seconds_structural": 0.023,
+        "build_seconds_dense": 0.091
+      }
+    },
+    "cnli_584.txt": {
+      "pages": 1,
+      "words": 2509,
+      "index": {
+        "doc_id": "eval_cnli_584",
+        "clauses": 6,
+        "definitions": 8,
+        "sections": 0,
+        "attachments": [
+          "Exhibit 99"
+        ],
+        "unresolved_xrefs": [
+          "13",
+          "2"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 16171,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9996,
+        "non_whitespace_chars": 13662,
+        "build_seconds_structural": 0.028,
+        "build_seconds_dense": 0.32
+      }
+    },
+    "cnli_596.txt": {
+      "pages": 1,
+      "words": 2159,
+      "index": {
+        "doc_id": "eval_cnli_596",
+        "clauses": 17,
+        "definitions": 7,
+        "sections": 0,
+        "attachments": [
+          "Exhibit 10"
+        ],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 13805,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9988,
+        "non_whitespace_chars": 11645,
+        "build_seconds_structural": 0.023,
+        "build_seconds_dense": 0.726
+      }
+    },
+    "cnli_606.txt": {
+      "pages": 1,
+      "words": 3554,
+      "index": {
+        "doc_id": "eval_cnli_606",
+        "clauses": 11,
+        "definitions": 8,
+        "sections": 10,
+        "attachments": [],
+        "unresolved_xrefs": [
+          "13",
+          "14",
+          "7",
+          "9"
+        ],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 23027,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9995,
+        "non_whitespace_chars": 19473,
+        "build_seconds_structural": 0.041,
+        "build_seconds_dense": 0.475
+      }
+    },
+    "cnli_62.txt": {
+      "pages": 1,
+      "words": 2393,
+      "index": {
+        "doc_id": "eval_cnli_62",
+        "clauses": 17,
+        "definitions": 5,
+        "sections": 16,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 16684,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.999,
+        "non_whitespace_chars": 14291,
+        "build_seconds_structural": 0.023,
+        "build_seconds_dense": 0.693
+      }
+    },
+    "cnli_65.txt": {
+      "pages": 1,
+      "words": 2107,
+      "index": {
+        "doc_id": "eval_cnli_65",
+        "clauses": 42,
+        "definitions": 3,
+        "sections": 40,
+        "attachments": [
+          "Appendix A"
+        ],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 13725,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9969,
+        "non_whitespace_chars": 11618,
+        "build_seconds_structural": 0.051,
+        "build_seconds_dense": 1.375
+      }
+    },
+    "cnli_67.txt": {
+      "pages": 1,
+      "words": 930,
+      "index": {
+        "doc_id": "eval_cnli_67",
+        "clauses": 13,
+        "definitions": 2,
+        "sections": 12,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 6425,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.998,
+        "non_whitespace_chars": 5495,
+        "build_seconds_structural": 0.009,
+        "build_seconds_dense": 0.572
+      }
+    },
+    "cnli_76.txt": {
+      "pages": 1,
+      "words": 1231,
+      "index": {
+        "doc_id": "eval_cnli_76",
+        "clauses": 1,
+        "definitions": 5,
+        "sections": 1,
+        "attachments": [],
+        "unresolved_xrefs": [],
+        "low_text_pages": [],
+        "dense": {
+          "model": "sentence-transformers/all-MiniLM-L6-v2",
+          "backend": "faiss"
+        },
+        "index_version": "1",
+        "label_error": null,
+        "clause_cap": 500,
+        "doc_chars": 8351,
+        "unlocated_clauses": 0,
+        "char_coverage": 0.9999,
+        "non_whitespace_chars": 7118,
+        "build_seconds_structural": 0.055,
+        "build_seconds_dense": 0.131
+      }
+    }
+  },
+  "variants": [
+    "bm25",
+    "dense",
+    "hybrid",
+    "hybrid+rerank"
+  ],
+  "ks": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "with_llm": false,
+  "settings": {
+    "EVIDENCE_CANDIDATE_POOL": 20,
+    "EVIDENCE_CLASSIFY_AT_INDEX": false,
+    "EVIDENCE_DENSE_ENABLED": true,
+    "EVIDENCE_EMBED_MODEL": "sentence-transformers/all-MiniLM-L6-v2",
+    "EVIDENCE_MAX_CLAUSES": 500,
+    "EVIDENCE_MAX_CONTEXT_CHARS": 12000,
+    "EVIDENCE_MODELS_LOCAL_ONLY": true,
+    "EVIDENCE_RERANK_ENABLED": true,
+    "EVIDENCE_RERANK_MODEL": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "EVIDENCE_RRF_K": 60,
+    "EVIDENCE_TOP_K": 5,
+    "OLLAMA_BASE_URL": "http://localhost:11434",
+    "OLLAMA_DISABLE_THINKING": true,
+    "OLLAMA_MODEL": "qwen3:4b",
+    "OLLAMA_NUM_PREDICT": 512,
+    "OLLAMA_TEMPERATURE": 0.2,
+    "OLLAMA_TIMEOUT_SECONDS": 120.0,
+    "QA_MODE": "baseline"
+  },
+  "model_load_errors": {},
+  "dataset_warnings": [],
+  "segmentation_warnings": [
+    "cnli-225-nda-1: gold span (766, 1253) crosses a clause boundary",
+    "cnli-225-nda-2: gold span (766, 1253) crosses a clause boundary",
+    "cnli-23-nda-20: gold span (10235, 10669) crosses a clause boundary",
+    "cnli-67-nda-2: gold span (612, 1465) crosses a clause boundary",
+    "cnli-65-nda-20: gold span (8104, 8670) crosses a clause boundary"
+  ],
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

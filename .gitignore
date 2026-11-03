@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+dist/
+
+# Secrets / local settings
+.env
+
+# Large model weights and caches (download from Hugging Face, see README)
+*.safetensors
+*.bin
+*.pt
+LEDGAR_DeBERTa_Project/pretrained_model/.cache/
+LEDGAR_DeBERTa_Project/checkpoints/
+LEDGAR_DeBERTa_Project/final_model/
+
+# Downloaded benchmarks and archives
+eval_downloads/
+*.zip
+*.tar.gz
+_backups/
+
+# Launcher / OS files
+start_lexiguard.bat
+push_to_github.bat
+Thumbs.db
+.DS_Store
